@@ -1,0 +1,29 @@
+/* EXTERNAL CSS - MAIN BACKGROUND STYLING */
+
+body {
+  background-color: rgba(135, 47, 47, 0.1); /* Light maroon with transparency */
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9; /* Try 0.1, 0.5, 0.8, 1 */
+
+  /* BACKGROUND IMAGE PROPERTIES */
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat; /* try: repeat, repeat-x, repeat-y, no-repeat */
+  background-attachment: fixed; /* try: fixed, scroll */
+  background-size: cover; /* try: cover, contain, auto */
+  background-position: center center; /* try: top left, top right, bottom right, 40% 10% */
+
+  /* BACKGROUND SHORTHAND */
+  /* background: rgba(135, 47, 47, 0.1) no-repeat fixed center center url("images/logo.png"); */
+
+  padding: 50px;
+  text-align: center;
+}
+
+/* EXTERNAL CSS - TEXT COLOR */
+h1 {
+  color: rgb(47, 10, 10);
+}

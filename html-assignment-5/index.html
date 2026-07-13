@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ElectroMart - Product Price List</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ElectroMart – Product Price List</h1>
+
+    <table>
+      <!-- TABLE HEADER -->
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Category</th>
+          <th>Price</th>
+          <th>Stock</th>
+        </tr>
+      </thead>
+
+      <!-- TABLE BODY -->
+      <tbody>
+        <!-- ROWSPAN EXAMPLE FOR MOBILE -->
+        <tr>
+          <td>Samsung A14</td>
+          <td rowspan="2">Mobile</td>
+          <td>$250</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>iPhone 13</td>
+          <td>$799</td>
+          <td>No</td>
+        </tr>
+
+        <!-- ROWSPAN EXAMPLE FOR LAPTOP -->
+        <tr>
+          <td>HP Laptop 15</td>
+          <td rowspan="2">Laptop</td>
+          <td>$650</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>MacBook Pro</td>
+          <td>$1200</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+
+      <!-- TABLE FOOTER -->
+      <tfoot>
+        <tr>
+          <td colspan="4">Total Products: 4</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

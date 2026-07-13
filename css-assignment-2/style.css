@@ -1,0 +1,129 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+.navbar h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.category {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.category img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 5px;
+}
+.category span {
+  font-size: 14px;
+}
+
+/* BANNER */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+.banner img {
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+
+/* SALES TABLE */
+.sales {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+}
+.sales h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+th {
+  background: #ff4081;
+  color: white;
+}
+del {
+  color: gray;
+}
+ins {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* DESCRIPTION SECTION */
+.about {
+  width: 90%;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.about h2 {
+  color: #ff4081;
+  margin-bottom: 10px;
+}
+
+/* LISTS */
+.list-section {
+  width: 90%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.list-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+.list-section ul {
+  list-style: square inside;
+  line-height: 1.8;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}

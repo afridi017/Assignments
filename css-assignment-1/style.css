@@ -1,0 +1,75 @@
+/* EXTERNAL CSS */
+body {
+  font-family: "Georgia", serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* IMAGE */
+.featured-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* CATEGORY */
+.category {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #555;
+  border-bottom: 1px solid #e0c9a6;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* TITLE */
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  color: #111;
+}
+
+/* DATE & AUTHOR */
+.meta {
+  font-size: 14px;
+  color: #b89b6f;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+/* CONTENT */
+.content {
+  text-align: left;
+  font-size: 16px;
+  color: #444;
+}
+
+.content p {
+  margin-bottom: 25px;
+}
+
+/* CONTINUE READING LINK */
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  color: #b89b6f;
+  text-decoration: none;
+  font-style: italic;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
