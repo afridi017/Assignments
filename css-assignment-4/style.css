@@ -1,0 +1,175 @@
+/* ===========================
+   RESET & BASE STYLES
+=========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Purple to Pink Gradient Background */
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* ===========================
+   PAGE WRAPPER
+=========================== */
+.page-wrapper {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* ===========================
+   PAGE TITLE
+=========================== */
+.page-title {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page-subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ===========================
+   TABLE CONTAINER
+=========================== */
+.table-container {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+
+  /* Responsive Scroll on Mobile */
+  overflow-x: auto;
+}
+
+/* ===========================
+   TABLE BASE
+=========================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+/* ===========================
+   TABLE HEADER
+=========================== */
+thead tr {
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+
+thead th {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* ===========================
+   TABLE BODY ROWS
+=========================== */
+tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+/* Normal Row */
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Alternate Row - Light Grey */
+tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+  background-color: #efe6fd;
+  cursor: pointer;
+}
+
+tbody td {
+  padding: 14px 20px;
+  color: #444;
+  font-size: 14px;
+}
+
+/* Product Name Bold */
+tbody td:nth-child(3) {
+  font-weight: 600;
+  color: #222;
+}
+
+/* Total Column Purple */
+tbody td:nth-child(6) {
+  color: #7b2ff7;
+  font-weight: 700;
+}
+
+/* ===========================
+   TABLE FOOTER
+=========================== */
+tfoot tr {
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+
+tfoot td {
+  padding: 16px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Grand Total Amount */
+tfoot td:last-child {
+  color: #f9a8d4;
+  font-size: 18px;
+}
+
+/* ===========================
+   RESPONSIVE - MOBILE
+=========================== */
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 22px;
+  }
+
+  thead th,
+  tbody td,
+  tfoot td {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .page-wrapper {
+    padding: 20px 10px;
+  }
+}
