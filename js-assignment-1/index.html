@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Assignment #1 – Basics &amp; Hello World</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 700px;
+        margin: 40px auto;
+        padding: 0 20px;
+        background: #f4f6f9;
+        color: #222;
+      }
+      h1 {
+        color: #0b5cad;
+      }
+      .box {
+        background: #fff;
+        border-left: 5px solid #0b5cad;
+        padding: 15px 20px;
+        border-radius: 6px;
+        margin: 15px 0;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+      }
+      .box p {
+        margin: 6px 0;
+      }
+      .label {
+        font-weight: bold;
+        color: #0b5cad;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript Assignment #1</h1>
+    <p>
+      This page is made interactive with an external JavaScript file
+      (<code>script.js</code>).
+    </p>
+
+    <div class="box">
+      <h2>Variable Data Displayed on the Page</h2>
+      <!-- JavaScript will print the student info inside this box -->
+      <div id="output"></div>
+    </div>
+
+    <div class="box">
+      <h3>Check the Browser Console</h3>
+      <p>
+        Press <b>Right Click &rarr; Inspect &rarr; Console</b> to see the
+        messages printed by <code>console.log()</code>.
+      </p>
+    </div>
+
+    <!-- Step 2: Link the JavaScript file at the bottom of the HTML -->
+    <script src="script.js"></script>
+  </body>
+</html>
